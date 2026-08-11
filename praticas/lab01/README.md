@@ -91,7 +91,8 @@ $ gcc -Wall -Wextra -Werror warnings.c -o v4
 - [ ] **Q1.** Quantos warnings o `-Wall` sozinho mostrou? Qual variável ele reclamou?
 - [ ] **Q2.** O que `-Wextra` encontrou a mais que o `-Wall` não tinha encontrado?
 - [ ] **Q3.** O comando com `-Werror` gerou um executável (`v4`)? Por quê?
-- [ ] **Q4.** O programa tem um bug de **divisão inteira** na linha da variável `media` (o resultado devia ser `8.00`, não um número inteiro "arredondado"). Nenhuma das flags de warning aponta esse problema. Por que você acha que o compilador não consegue detectar esse tipo de bug?
+<!-- - [ ] **Q4.** O programa tem um bug de **divisão inteira** na linha da variável `media` (o resultado devia ser `8.00`, não um número inteiro "arredondado"). Nenhuma das flags de warning aponta esse problema. Por que você acha que o compilador não consegue detectar esse tipo de bug?
+-->
 
 ### Parte B — Otimização
 
