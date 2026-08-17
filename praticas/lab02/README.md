@@ -1,7 +1,6 @@
-# Guia de Atividade Prática
+# Laboratório 02<br>Ambiente e Ferramentas de Programação (Parte 2)
 
-## Laboratório 02 — Ambiente e Ferramentas de Programação (Parte 2)
-
+<!--
 **PSL221A09 — Programação em Sistemas Linux**
 
 | | |
@@ -12,6 +11,7 @@
 | **Entregável** | Pasta `laboratorio02-nomes/` com os 4 exercícios |
 
 ---
+--->
 
 Este guia consolida quatro ferramentas que complementam o GCC, o Make e o GDB: **Git** para controle de versão, **Valgrind** para encontrar vazamentos de memória, **strace** para rastrear chamadas de sistema, e **CMake** para descrever builds de forma portável. Siga os quatro exercícios em ordem. Sempre que houver uma seção de **saída esperada**, compare com o que apareceu no seu terminal antes de seguir em frente.
 
