@@ -6,9 +6,9 @@
 | | |
 |---|---|
 | **Duração estimada** | 80–90 minutos (parte prática) |
-| **Formato** | Duplas ou trios, no LSC/LSI |
+| **Formato** | Individual, no LSC/LSI |
 | **Pré-requisito** | Git, Valgrind, strace, CMake e GCC instalados (Ubuntu/Debian) |
-| **Entregável** | Pasta `laboratorio02-nomes/` com os 4 exercícios |
+| **Entregável** | Pasta `lab02-nome/` com os 4 exercícios |
 
 ---
 --->
@@ -44,9 +44,34 @@ Este guia consolida quatro ferramentas que complementam o GCC, o Make e o GDB: *
 3. Crie a pasta de trabalho do laboratório:
 
    ```bash
-   $ mkdir -p ~/psl/laboratorio02/{ex1,ex2,ex3,ex4}
-   $ cd ~/psl/laboratorio02
-   ```
+   $ mkdir -p ~/psl/lab02/{ex1,ex2,ex3,ex4}
+   $ cd ~/psl/lab02
+   ```#include "estatistica.h"
+
+double media(const int *valores, int tamanho) {
+    double soma = 0.0;
+    for (int i = 0; i < tamanho; i++) {
+        soma += valores[i];
+    }
+    return soma / tamanho;
+}
+
+int maior(const int *valores, int tamanho) {
+    int max = valores[0];
+    for (int i = 1; i < tamanho; i++) {
+        if (valores[i] > max) max = valores[i];
+    }
+    return max;
+}
+
+int menor(const int *valores, int tamanho) {
+    int min = valores[0];
+    for (int i = 1; i < tamanho; i++) {
+        if (valores[i] < min) min = valores[i];
+    }
+    return min;
+}
+
 
 ---
 
@@ -444,6 +469,7 @@ $ make        # deve recompilar so main.c, nao estatistica.c
 - [ ] **Q14.** O que aconteceria se você rodasse `cmake ..` e `make` **dentro** da pasta `ex4/` (sem criar `build/`)? Por que a prática recomendada é sempre usar uma pasta separada?
 - [ ] **Q15.** Como você apagaria completamente os artefatos de build e recomeçaria do zero, sem risco de apagar código-fonte?
 
+<!-- 
 Se travar, o gabarito completo está no [Anexo A](#anexo-a--gabarito-do-cmakeliststxt).
 
 ---
@@ -537,3 +563,4 @@ mkdir build && cd build
 cmake ..
 make
 ```
+-->
