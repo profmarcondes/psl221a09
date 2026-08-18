@@ -9,7 +9,7 @@
 | **Duração estimada** | 70–80 minutos (parte prática do encontro) |
 | **Formato** | Duplas ou trios, no LSC/LSI |
 | **Pré-requisito** | GCC, Make e GDB instalados (Ubuntu/Debian) |
-| **Entregável** | Pasta `lab01-nomes/` com os 3 exercícios |
+| **Entregável** | Pasta `lab01-nome/` com os 3 exercícios |
 ---
 -->
 
@@ -29,11 +29,13 @@ Este guia consolida os conceitos vistos hoje: compilação com **GCC**, automaç
 
 2. Crie a pasta de trabalho do encontro:
 
-   ```bash
-   $ mkdir -p ~/psl/lab01-nome/{ex1,ex2,ex3}
-   $ cd ~/psl/lab01-nome
-   ```
+   Execute este comando na raiz do repositório.
 
+   ```bash
+   $ mkdir -p working_dir/lab01-nome/{ex1,ex2,ex3}
+   $ cd working_dir/lab01-nome
+   ```
+   
 ---
 
 ## Exercício 1 — GCC: flags de compilação (20 min)
@@ -419,16 +421,13 @@ Se o resultado bateu com `8.00`, o exercício está concluído.
 
 ---
 
-## Entrega e critérios de avaliação
-
-### O que entregar
+## Entrega <!-- e critérios de avaliação -->
 
 Uma pasta `lab01-nome/` contendo:
 
 - [ ] `ex1/warnings.c`, `ex1/otimizacao.c`, `ex1/respostas.txt`
 - [ ] `ex2/main.c`, `ex2/estatistica.c`, `ex2/estatistica.h`, `ex2/Makefile`, `ex2/respostas.txt`
 - [ ] `ex3/notas.c` (já corrigido), `ex3/respostas.txt`
-
 
 <!--
 ### Avaliação (10 pontos)

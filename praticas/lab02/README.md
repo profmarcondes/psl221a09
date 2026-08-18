@@ -8,7 +8,7 @@
 | **Duração estimada** | 80–90 minutos (parte prática) |
 | **Formato** | Individual, no LSC/LSI |
 | **Pré-requisito** | Git, Valgrind, strace, CMake e GCC instalados (Ubuntu/Debian) |
-| **Entregável** | Pasta `lab02-nome/` com os 4 exercícios |
+| **Entregável** | Pasta `lab02-nomes/` com os 4 exercícios |
 
 ---
 --->
@@ -43,36 +43,12 @@ Este guia consolida quatro ferramentas que complementam o GCC, o Make e o GDB: *
 
 3. Crie a pasta de trabalho do laboratório:
 
+   Execute este comando na raiz do repositório.
+
    ```bash
-   $ mkdir -p ~/psl/lab02/{ex1,ex2,ex3,ex4}
-   $ cd ~/psl/lab02
-   ```#include "estatistica.h"
-
-double media(const int *valores, int tamanho) {
-    double soma = 0.0;
-    for (int i = 0; i < tamanho; i++) {
-        soma += valores[i];
-    }
-    return soma / tamanho;
-}
-
-int maior(const int *valores, int tamanho) {
-    int max = valores[0];
-    for (int i = 1; i < tamanho; i++) {
-        if (valores[i] > max) max = valores[i];
-    }
-    return max;
-}
-
-int menor(const int *valores, int tamanho) {
-    int min = valores[0];
-    for (int i = 1; i < tamanho; i++) {
-        if (valores[i] < min) min = valores[i];
-    }
-    return min;
-}
-
-
+   $ mkdir -p working_dir/lab02-nome/{ex1,ex2,ex3,ex4}
+   $ cd working_dir/lab02-nome
+   ```
 ---
 
 ## Exercício 1 — Git: fluxo básico com branches (20 min)
@@ -471,20 +447,21 @@ $ make        # deve recompilar so main.c, nao estatistica.c
 
 <!-- 
 Se travar, o gabarito completo está no [Anexo A](#anexo-a--gabarito-do-cmakeliststxt).
-
+-->
 ---
 
-## Entrega e critérios de avaliação
+## Entrega <!-- e critérios de avaliação -->
 
 ### O que entregar
 
-Uma pasta `laboratorio02-nomes-da-dupla/` contendo:
+Uma pasta `lab02-nome/` contendo:
 
 - [ ] `ex1/config.txt` (versão final), `ex1/respostas.txt`
 - [ ] `ex2/leak.c` (já corrigido, com `free()`), `ex2/respostas.txt`
 - [ ] `ex3/copia.c` (versão final, com `TAM_BUFFER 4096`), `ex3/respostas.txt`
 - [ ] `ex4/main.c`, `ex4/estatistica.c`, `ex4/estatistica.h`, `ex4/CMakeLists.txt`, `ex4/respostas.txt`
 
+<!-- 
 ### Rubrica (10 pontos)
 
 | Critério | Pontos | O que é avaliado |
