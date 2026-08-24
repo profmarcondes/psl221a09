@@ -57,7 +57,7 @@ Este guia consolida quatro ferramentas que complementam o GCC, o Make e o GDB: *
 
 ### Parte A — Primeiro repositório
 
-Entre em `ex1/` e crie um repositório com um arquivo de configuração simples:
+Entre em `ex1/` e crie um repositório com um arquivo de configuração simples, execute os comandos abaixo, mas sempre execute o comando `git status` a cada passo para verificar as modificações que ocorrem entre um comando e outro :
 
 ```bash
 $ cd ex1
