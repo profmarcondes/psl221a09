@@ -1,4 +1,4 @@
-# Laboratório 02<br>Ambiente e Ferramentas de Programação (Parte 2)
+# Laboratório 02: <br> Ambiente e Ferramentas de Programação (Parte 2)
 
 <!--
 **PSL221A09 — Programação em Sistemas Linux**
@@ -51,7 +51,7 @@ Este guia consolida quatro ferramentas que complementam o GCC, o Make e o GDB: *
    ```
 ---
 
-## Exercício 1 — Git: fluxo básico com branches (20 min)
+## Exercício 1 — Git: fluxo básico com branches <!--(20 min)-->
 
 > **Objetivo:** Praticar o ciclo `init` → `add` → `commit` → `branch` → `merge`, incluindo a resolução manual de um conflito.
 
@@ -147,7 +147,7 @@ $ git log --oneline --graph --all
 
 ---
 
-## Exercício 2 — Valgrind: encontrando e corrigindo um memory leak (20–25 min)
+## Exercício 2 — Valgrind: encontrando e corrigindo um memory leak <!--(20–25 min)-->
 
 > **Objetivo:** Usar `valgrind --leak-check=full` para localizar exatamente a linha de um `malloc()` sem `free()` correspondente, e confirmar a correção.
 
@@ -240,7 +240,7 @@ Se a sua saída terminou assim, o exercício está concluído.
 
 ---
 
-## Exercício 3 — strace: por que meu programa está lento? (20–25 min)
+## Exercício 3 — strace: por que meu programa está lento? <!--(20–25 min)-->
 
 > **Objetivo:** Usar `strace -c` para medir o número de chamadas de sistema de um programa e demonstrar, na prática, como o tamanho de um buffer de leitura afeta o desempenho.
 
@@ -454,7 +454,7 @@ Se travar, o gabarito completo está no [Anexo A](#anexo-a--gabarito-do-cmakelis
 
 ### O que entregar
 
-Uma pasta `lab02-nome/` contendo:
+Uma pasta `lab02-nome/`, compactada, contendo:
 
 - [ ] `ex1/config.txt` (versão final), `ex1/respostas.txt`
 - [ ] `ex2/leak.c` (já corrigido, com `free()`), `ex2/respostas.txt`

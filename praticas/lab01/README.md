@@ -1,5 +1,5 @@
 
-# Laboratório 01:<br>Ambiente e Ferramentas de Programação (Parte 1)
+# Laboratório 01: <br> Ambiente e Ferramentas de Programação (Parte 1)
 
 <!--
 **PSL221A09 — Programação em Sistemas Linux**
@@ -38,7 +38,7 @@ Este guia consolida os conceitos vistos hoje: compilação com **GCC**, automaç
    
 ---
 
-## Exercício 1 — GCC: flags de compilação (20 min)
+## Exercício 1 — GCC: flags de compilação <!--(20 min)-->
 
 > **Objetivo:** Entender o que cada flag do GCC faz na prática: warnings que pegam bugs, e otimizações que mudam o desempenho sem mudar o resultado.
 
@@ -171,7 +171,7 @@ real  0m0.071s   # aproximado, com -O2 (cerca de 5x mais rápido)
 
 ---
 
-## Exercício 2 — Make: automatizando o build (25 min)
+## Exercício 2 — Make: automatizando o build <!--(25 min)-->
 
 > **Objetivo:** Escrever, do zero, um Makefile funcional para um projeto com múltiplos arquivos `.c`, usando variáveis, regras de padrão e alvos `.PHONY`.
 
@@ -285,7 +285,7 @@ Menor:  4
 
 ---
 
-## Exercício 3 — GDB: caçando um bug (25–30 min)
+## Exercício 3 — GDB: caçando um bug <!--(25–30 min)-->
 
 > **Objetivo:** Usar `break`, `next`/`step`, `watch`, `backtrace` e `print` para localizar a causa exata de um resultado errado — sem adicionar um único `printf`.
 
@@ -423,7 +423,7 @@ Se o resultado bateu com `8.00`, o exercício está concluído.
 
 ## Entrega <!-- e critérios de avaliação -->
 
-Uma pasta `lab01-nome/` contendo:
+Uma pasta `lab01-nome/`, compactada, contendo:
 
 - [ ] `ex1/warnings.c`, `ex1/otimizacao.c`, `ex1/respostas.txt`
 - [ ] `ex2/main.c`, `ex2/estatistica.c`, `ex2/estatistica.h`, `ex2/Makefile`, `ex2/respostas.txt`

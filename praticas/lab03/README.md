@@ -1,4 +1,4 @@
-# Laboratório 03 <br> Sistema de Arquivos Linux
+# Laboratório 03: <br> Sistema de Arquivos Linux
 
 <!--
 **PSL221A09 — Programação em Sistemas Linux**
@@ -32,7 +32,7 @@ Este guia consolida a hierarquia de diretórios do Linux (**FHS**), os **tipos d
 
 ---
 
-## Exercício 1 — Explorando a hierarquia FHS (15 min)
+## Exercício 1 — Explorando a hierarquia FHS <!--(15 min)-->
 
 > **Objetivo:** Reconhecer os principais diretórios do FHS e a diferença entre um sistema de arquivos "de verdade" e um virtual como `/proc`.
 
@@ -57,7 +57,7 @@ $ cat /proc/$$/status | head -5
 
 ---
 
-## Exercício 2 — Tipos de arquivo e permissões na prática (25–30 min)
+## Exercício 2 — Tipos de arquivo e permissões na prática <!--(25–30 min)-->
 
 > **Objetivo:** Manipular permissões com `chmod`/`chown`, e observar SUID, SGID e *sticky bit* em arquivos reais do sistema.
 
@@ -115,11 +115,11 @@ $ ls -ld pasta_protegida
 - [ ] **Q11.** No `ls -ld /tmp`, qual caractere aparece no lugar do `x` de "outros"? Pesquise (ou teste com um colega, cada um como um usuário diferente) o que o *sticky bit* impede que aconteça em uma pasta com permissão de escrita para todos, como `/tmp`.
 - [ ] **Q12.** Depois do `chmod g+s pasta_compartilhada`, crie um arquivo dentro dela (`touch pasta_compartilhada/teste.txt`) e rode `ls -l pasta_compartilhada/teste.txt`. De qual grupo o arquivo herdou, e por quê?
 
-> **Dica:** Se algum desses testes não mostrar o comportamento esperado, confirme que você **não** está logado como `root` — como vimos, o `root` ignora várias dessas checagens.
+<!-- >> **Dica:** Se algum desses testes não mostrar o comportamento esperado, confirme que você **não** está logado como `root` — como vimos, o `root` ignora várias dessas checagens. -->
 
 ---
 
-## Exercício 3 — Um `ls -l` em C, do zero (30–35 min)
+## Exercício 3 — Um `ls -l` em C, do zero <!--(30–35 min)-->
 
 > **Objetivo:** Usar `opendir`/`readdir`/`lstat` para escrever um programa que lista um diretório mostrando tipo, permissões, tamanho e inode de cada entrada — na prática, uma versão simplificada do `ls -l`.
 
@@ -218,7 +218,7 @@ opendir: No such file or directory
 - [ ] **Q14.** Rode `./listadir .` no seu próprio diretório `ex3/`. Quais entradas aparecem que você **não** criou explicitamente? (dica: toda pasta tem pelo menos duas entradas "de brinde")
 - [ ] **Q15.** O tamanho reportado para um diretório (por exemplo, `subpasta`) normalmente é `4096 bytes`, mesmo estando "vazio". O que esse número representa? (dica: não é o tamanho dos arquivos dentro dele)
 
-Se travar na implementação, o gabarito completo está no [Anexo A](#anexo-a--gabarito-do-listadirc).
+<!-- Se travar na implementação, o gabarito completo está no [Anexo A](#anexo-a--gabarito-do-listadirc). -->
 
 ---
 
@@ -226,7 +226,7 @@ Se travar na implementação, o gabarito completo está no [Anexo A](#anexo-a--g
 
 ### O que entregar
 
-Uma pasta `lab03-nome/` contendo:
+Uma pasta `lab03-nome/`, compactada, contendo:
 
 - [ ] `ex1/respostas.txt`
 - [ ] `ex2/respostas.txt`
