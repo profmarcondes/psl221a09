@@ -7,3 +7,7 @@
 [Laboratório 03: Sistema de Arquivos Linux](./lab03)
 
 [Laboratório 04: Chamadas de Sistema: Fundamentos](./lab04)
+
+[Laboratório 05: Inicialização do Sistema Linux (Boot)](./lab05)
+
+[Laboratório 06: Shell Scripting](./lab06)
