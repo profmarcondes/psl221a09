@@ -11,3 +11,7 @@
 [Laboratório 05: Inicialização do Sistema Linux (Boot)](./lab05)
 
 [Laboratório 06: Shell Scripting](./lab06)
+
+[Laboratório 07: Dispositivos, /proc e sysfs](./lab07)
+
+
