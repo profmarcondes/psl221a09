@@ -14,4 +14,31 @@
 
 [Laboratório 07: Dispositivos, /proc e sysfs](./lab07)
 
+[Laboratório 08: Processos e Daemons](./lab08)
 
+<!--
+[Laboratório 09: ](./lab09)
+
+[Laboratório 10: ](./lab10)
+
+[Laboratório 11: ](./lab11)
+
+[Laboratório 12: ](./lab12)
+
+[Laboratório 13: ](./lab13)
+
+[Laboratório 14: ](./lab14)
+
+[Laboratório 15: ](./lab15)
+
+[Laboratório 16: ](./lab16)
+
+[Laboratório 17: ](./lab17)
+
+[Laboratório 18: ](./lab18)
+
+[Laboratório 19: ](./lab19)
+
+[Laboratório 20: ](./lab20)
+
+-->
