@@ -16,9 +16,9 @@
 
 [Laboratório 08: Processos e Daemons](./lab08)
 
-<!--
-[Laboratório 09: ](./lab09)
+[Laboratório 09: Threads e Sincronização](./lab09)
 
+<!--
 [Laboratório 10: ](./lab10)
 
 [Laboratório 11: ](./lab11)
@@ -40,5 +40,4 @@
 [Laboratório 19: ](./lab19)
 
 [Laboratório 20: ](./lab20)
-
 -->
