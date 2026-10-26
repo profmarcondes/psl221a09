@@ -18,9 +18,9 @@
 
 [Laboratório 09: Threads e Sincronização](./lab09)
 
-<!--
-[Laboratório 10: ](./lab10)
+[Laboratório 10: Comunicação entre Processos (IPC)](./lab10)
 
+<!--
 [Laboratório 11: ](./lab11)
 
 [Laboratório 12: ](./lab12)
