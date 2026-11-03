@@ -20,9 +20,9 @@
 
 [Laboratório 10: Comunicação entre Processos (IPC)](./lab10)
 
-<!--
-[Laboratório 11: ](./lab11)
+[Laboratório 11: inais e Gerenciamento de Tempo](./lab11)
 
+<!--
 [Laboratório 12: ](./lab12)
 
 [Laboratório 13: ](./lab13)
