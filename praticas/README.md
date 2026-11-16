@@ -20,11 +20,11 @@
 
 [Laboratório 10: Comunicação entre Processos (IPC)](./lab10)
 
-[Laboratório 11: inais e Gerenciamento de Tempo](./lab11)
+[Laboratório 11: Sinais e Gerenciamento de Tempo](./lab11)
+
+[Laboratório 12: Rede e Servidores Concorrentes](./lab12)
 
 <!--
-[Laboratório 12: ](./lab12)
-
 [Laboratório 13: ](./lab13)
 
 [Laboratório 14: ](./lab14)
